@@ -1,0 +1,398 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://img.freepik.com/fotos-premium/abstrato-fundo-de-cristal-preto-aigenerated_692702-15424.jpg?w=2000);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333;
+  background-image: url(https://img.freepik.com/fotos-premium/abstrato-fundo-de-cristal-preto-aigenerated_692702-15424.jpg?w=2000);
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: #aaa;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* Estilos das seções */
+.home {
+  background-color: #111;
+  padding: 100px 0;
+  text-align: center;
+  background-image: url(https://img.freepik.com/fotos-premium/abstrato-fundo-de-cristal-preto-aigenerated_692702-15424.jpg?w=2000);
+}
+
+.home-img img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.home h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.bio {
+  background-color: #222;
+  padding: 100px 0;
+  text-align: center;
+  background-image: url(https://img.freepik.com/fotos-premium/abstrato-fundo-de-cristal-preto-aigenerated_692702-15424.jpg?w=2000);
+}
+
+.bio-img img,
+.portfolio-item img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.bio h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.bio h2 span {
+  color: #aaa;
+}
+
+.bio p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.formacao {
+  background-image: url(https://img.freepik.com/fotos-premium/abstrato-fundo-de-cristal-preto-aigenerated_692702-15424.jpg?w=2000);
+  padding: 100px 0;
+  text-align: center;
+}
+
+.formacao h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.formacao h2 span {
+  color: #aaa;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.timeline-item .timeline-img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.timeline-item .timeline-img img {
+  width: 100%;
+  display: block;
+  border-radius: 50%; /* Deixa a imagem redonda */
+}
+
+.timeline-item .timeline-content {
+  max-width: 400px;
+}
+
+.timeline-item h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.timeline-item h4 {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.timeline-item p {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.services {
+  background-color: #444;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.services h2 span {
+  color: #aaa;
+}
+
+.services-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.service {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #555;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.service:hover {
+  background-color: #666;
+}
+
+.service h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.portfolio {
+  padding: 100px 0;
+  text-align: center;
+  background-image: url(https://img.freepik.com/fotos-premium/abstrato-fundo-de-cristal-preto-aigenerated_692702-15424.jpg?w=2000);
+}
+
+.portfolio h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.portfolio h2 span {
+  color: #aaa;
+}
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 40px;
+}
+
+.portfolio-item {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #555;
+  transition: background-color 0.3s ease;
+}
+
+.portfolio-item:hover {
+  background-color: #666;
+}
+
+.portfolio-item img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+
+.portfolio-item h3 {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.contact {
+  background-color: #333;
+  padding: 100px 0;
+  text-align: center;
+  background-image: url(https://img.freepik.com/fotos-premium/abstrato-fundo-de-cristal-preto-aigenerated_692702-15424.jpg?w=2000);
+}
+
+.contact h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact h2 span {
+  color: #aaa;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form button {
+  display: block;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.timeline-item {
+  
+ display: inline-block;
+ width: auto;
+ height: auto;
+ align-items: auto;
+ margin: 50px;
+
+
+}
+
+.timeline-item .timeline-img {
+  width: 100px;
+
+}
+
+.timeline-item .timeline-img img {
+  width: 100px;
+  height: 100px;
+ 
+}
+
+.timeline-title {
+
+  align
+}
